@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: design-system-backstage-config
+  title: VA Notify
+  links:
+    - url: https://design.va.gov/components/
+      title: Components Library Documentation
+      icon: web
+    - url: https://design.va.gov/foundation/
+      title: CSS Library Rationale
+      icon: web
+    - url: https://design.va.gov/patterns/
+      title: Patterns Overview
+      icon: web
+  annotations:
+    github.com/project-slug: ***/design-system-backstage-config
+    backstage.io/techdocs-ref: dir:.
+  description: Provides common design standards to designers and developers
+  tags:
+    - utility
+    - design
+spec:
+  type:  ***
+  lifecycle: production
+  owner: ***
+  system: ***
